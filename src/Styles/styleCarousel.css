@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Roboto:wght@500&&display=swap");
+
+.backgroundCarrosel {
+  
+  background-color: var(--background-about);
+}
+.carousel {
+  width: 62.5rem;
+
+  /* width: 80%; */
+  margin: 0 auto;
+  background-color: none;
+  position: relative;
+  background-color: var(--background-full);
+  
+}
+
+.carousel img {
+  width: 21.0625rem;
+  height: 11.875rem;
+  object-fit: contain; 
+}
+
+#btAbrirModals,
+#btAbrirModals2,
+#btAbrirModals3,
+#btAbrirModals4,
+#btAbrirModals5,
+#btAbrirModals6,
+#btAbrirModals7,
+#btAbrirModals8,
+#btAbrirModals9,
+#btAbrirModals10{
+  background: none;
+  border: none;  
+}
+
+#btAbrirModals:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals1:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals2:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals3:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals4:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals5:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals6:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals7:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals8:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals9:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+#btAbrirModals10:hover {
+  opacity: 0.76;
+  filter:alpha(opacity=76);
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.modals-bg,
+.modals-bg1,
+.modals-bg2,
+.modals-bg3,
+.modals-bg4,
+.modals-bg5,
+.modals-bg6,
+.modals-bg7,
+.modals-bg8,
+.modals-bg9,
+.modals-bg10 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: gainsboro;
+  opacity: 0;
+}
+
+.modals-content {
+  position: fixed;
+  margin: 0 auto;
+  width: 31.25rem;
+  height: 27.5rem;
+  top: 200px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: var(--background);
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  z-index: 5;
+}
+
+.modals-content p {
+  font-size: 1.3rem;
+  font-family: Montserrat;
+}
+
+.modals-close,
+.modals-close1,
+.modals-close2,
+.modals-close3,
+.modals-close4,
+.modals-close5,
+.modals-close6,
+.modals-close7,
+.modals-close8,
+.modals-close9,
+.modals-close10{
+  font-size: 2rem;
+  line-height: 1;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--black);
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+.modals-content img {
+  width: 380px;
+  height: 340px;
+  object-fit: contain;
+}
+
+@media (max-width: 360px) {
+  
+
+.carousel {
+  padding-top: 15px;
+  width: 295px;
+  margin: 0 auto;
+  background-color: none;
+  position: relative;
+  background-color: var(--background-full);
+  
+}
+}
