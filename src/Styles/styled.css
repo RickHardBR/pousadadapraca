@@ -407,10 +407,35 @@ footer a {
 }
 
 @media (max-width: 480px) {
-  .nav-item a {
-    font-size: 0.9rem;
-    font-weight: 900;
+  .topo {
+    display: flex;
+    background-position: center;
+    width: 359px;  
+    background-color: var(--background-about);
+    background-size: cover;
+
   }
+  .social-icons {
+    width: 10%;
+    margin-left: 1rem;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav-item a {
+    font-size: 0.725rem;
+  }
+
+  .topo {
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+
   .large-image {
     width: 23rem;
     height: 18rem;
@@ -418,6 +443,88 @@ footer a {
     
     position: relative;
     transform: translatey(-10.25rem);
+ 
+  }
+
+  .content-topo {
+    width: 100%;
+    margin-top: 0.1rem;
+  }
+
+  .botton {
+    padding-top: 0.125rem;
+    
+    z-index: 10;
+  }
+
+  #section-images-topo-gallery .gallery-container {
+    margin-top: 6.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.325rem;
+  }
+
+  .gallery-image1 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+  
+  .gallery-image2 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+
+  .gallery-image3 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+  
+  #container-image {
+    display: flex;
+    width: 8.3rem;
+    height: 8.3rem;
+    
+    margin: 2px auto;
+
+    border: 2px solid var(--white);
+    border-radius: 5px;
+  }
+
+  .section-container-about {
+    align-items: center;
+    padding-top: 1.125rem;
+    margin-left: 0rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 90%;
+    height: 25rem;
+  }
+
+  .texts-about {
+    width: 100%;
+    margin-top: -5.25rem;
+    margin-right: .1rem
+  }
+  
+  .about-container img {
+    width: 300px;
+    height: 243px;
+}
+
+.section-container-about .about-p {
+  width: 99%;
+}
+  .carousel {
+  width: 100vw;
   }
 }
 

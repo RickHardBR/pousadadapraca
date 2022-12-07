@@ -8,15 +8,21 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
       });
-    }else if (tam <=360){
+    }else if (tam <=500){
       $('.carousel').slick({
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
       });
-    } 
- });
+    }else if (tam <=360){
+        $('.carousel').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+ }});
 //----------------------------------------------------------00
 let btAbrirModals = $("#btAbrirModals");
 let modals = $("#modals");

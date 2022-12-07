@@ -166,16 +166,27 @@
   object-fit: contain;
 }
 
-@media (max-width: 360px) {
-  
-
+@media (max-width: 480px) {
 .carousel {
   padding-top: 15px;
-  width: 295px;
+  width: 350px;
   margin: 0 auto;
   background-color: none;
   position: relative;
   background-color: var(--background-full);
+}
+}
+
+@media (max-width: 360px) {
   
-}
-}
+
+  .carousel {
+    padding-top: 15px;
+    width: 295px;
+    margin: 0 auto;
+    background-color: none;
+    position: relative;
+    background-color: var(--background-full);
+    
+  }
+  }
