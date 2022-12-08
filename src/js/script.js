@@ -8,7 +8,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
       });
-    }else if (tam <=500){
+    }else if (tam >=361){
       $('.carousel').slick({
         slidesToShow: 2,
         slidesToScroll: 1,

@@ -392,26 +392,16 @@ footer a {
   }
 }
 
-@media (width: 688px) {
-  .content-topo {
-    width: 60%;
-    margin-top: 0.1rem;
-    
-  }
-}
-
-@media (max-width: 640px) {
-  .container-fluid {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
+/* --------------- 960 ------------------ */
+@media (max-width: 960px) {
   .topo {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-position: center;
-    width: 359px;  
+    width: 100%;  
     background-color: var(--background-about);
+    background-repeat: no-repeat;
     background-size: cover;
 
   }
@@ -428,13 +418,239 @@ footer a {
     font-size: 0.725rem;
   }
 
-  .topo {
+.large-image {
+    width: 23rem;
+    height: 18rem;
+    background-size: cover;
+    
+    position: relative;
+    transform: translatey(-10.25rem);
+}
+
+.content-topo {
+    width: 100%;
+    margin-top: 0.1rem;
+  }
+
+  .botton {
+    padding-top: 0.125rem;
+    
+    z-index: 10;
+  }
+
+  #section-images-topo-gallery .gallery-container {
+    margin-top: 6.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.325rem;
+  }
+
+  .gallery-image1 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+  
+  .gallery-image2 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+
+  .gallery-image3 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+  
+  #container-image {
+    display: flex;
+    width: 8.3rem;
+    height: 8.3rem;
+    
+    margin: 2px auto;
+
+    border: 2px solid var(--white);
+    border-radius: 5px;
+  }
+
+  .section-container-about {
+    align-items: center;
+    padding-top: 1.125rem;
+    margin-left: 0rem;
+  }
+
+  .about-container {
+    display: flex;
     flex-direction: column;
-    width: 50vw;
-    height: 50vh;
+    justify-content: center;
+    position: absolute;
+    width: 90%;
+    height: 25rem;
+  }
+
+  .texts-about {
+    width: 100%;
+    margin-top: -5.25rem;
+    margin-right: .1rem
+  }
+  
+  .about-container img {
+    width: 300px;
+    height: 243px;
+}
+
+.section-container-about .about-p {
+  width: 99%;
+}
+  /* .carousel {
+  width: 350px;
+  } */
+}
+
+@media (max-width: 640px) {
+  .topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    width: 100%;  
+    background-color: var(--background-about);
     background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .social-icons {
+    width: 10%;
+    margin-left: 1rem;
+  }
+
+  .navbar-nav {
     align-items: center;
   }
+
+  .nav-item a {
+    font-size: 0.725rem;
+  }
+
+.large-image {
+    width: 23rem;
+    height: 18rem;
+    background-size: cover;
+    
+    position: relative;
+    transform: translatey(-10.25rem);
+}
+
+.content-topo {
+    width: 100%;
+    margin-top: 0.1rem;
+  }
+
+  .botton {
+    padding-top: 0.125rem;
+    
+    z-index: 10;
+  }
+
+  #section-images-topo-gallery .gallery-container {
+    margin-top: 6.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.325rem;
+  }
+
+  .gallery-image1 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+  
+  .gallery-image2 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+
+  .gallery-image3 {
+    width: 9rem;
+    height: 9rem;
+    background-size:contain ;
+  }
+  
+  #container-image {
+    display: flex;
+    width: 8.3rem;
+    height: 8.3rem;
+    
+    margin: 2px auto;
+
+    border: 2px solid var(--white);
+    border-radius: 5px;
+  }
+
+  .section-container-about {
+    align-items: center;
+    padding-top: 1.125rem;
+    margin-left: 0rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 90%;
+    height: 25rem;
+  }
+
+  .texts-about {
+    width: 100%;
+    margin-top: -5.25rem;
+    margin-right: .1rem
+  }
+  
+  .about-container img {
+    width: 300px;
+    height: 243px;
+}
+
+.section-container-about .about-p {
+  width: 99%;
+}
+  /* .carousel {
+  width: 350px;
+  } */
+}
+
+@media (max-width: 480px) {
+  .topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    width: 100%;  
+    background-color: var(--background-about);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .social-icons {
+    width: 10%;
+    margin-left: 1rem;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav-item a {
+    font-size: 0.725rem;
+  }
+
+
 
   .large-image {
     width: 23rem;
