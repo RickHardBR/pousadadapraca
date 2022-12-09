@@ -575,15 +575,35 @@ main {
   font-size: 1.3rem;
 }
 
-.footer-address img {
-  width: 23.5px;
-  height: 23.5px;
-}
-
 .footer-social {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 50px;
+  width: 480px;
+  height: 450px;
+
   gap: 10px;
   padding-top: 10px;
+}
+
+.footer-social img {
+  width: 23.5px;
+  height: 23.5px;
+  margin-right: 10px;
+}
+
+.footer-social .instagram {
+  display: flex;
+}
+
+.footer-social .facebook {
+  display: flex;
+}
+
+.footer-social .youtube {
+  display: flex;
 }
 
 .footer-dev {
@@ -595,7 +615,7 @@ main {
 }
 
 .footer-dev p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--white);
 }
 
