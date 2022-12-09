@@ -1,7 +1,14 @@
 $(document).ready(function(){
     var tam = $(window).width();
   
-    if (tam >=1000){
+    if (tam >=1185){
+      $('.carousel').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    }else if (tam >=885){
       $('.carousel').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
