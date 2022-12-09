@@ -427,6 +427,7 @@ main {
   display: flex;
   justify-content: center;
   background-color: var(--background-talk);
+  padding-top: 80px;
 }
 
 .container-location-text h3 {
@@ -445,6 +446,11 @@ main {
   width: 470px;
   padding: 20px 0 0 0;
 
+}
+
+.location-map {
+  width: 476px;
+  height: 428px;
 }
 
 .container-location-talk {
