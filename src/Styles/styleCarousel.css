@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Roboto:wght@500&&display=swap');
 
 .backgroundCarrosel {
+  height: 300px;
   background-color: var(--background-about);
 }
-.carousel {
-  /* width: 62.5rem; */
 
+.carousel {
   width: 80%;
   margin: 0 auto;
-  background-color: none;
   position: relative;
   background-color: var(--background-full);
 }
